@@ -2,8 +2,7 @@
 // El encadenamiento opcional u optional chaining(?.) detiene la evaluación del objeto cuando el valor es undefined o null antes del(?.), retornando undefined sin detener el programa por un error.
 
 const usuario = {}
-console.log(usuario.redes?.facebook)
-// undefined
+console.log(usuario.redes?.facebook) // Prints undefined
 
 // Pero, ¿por qué usaría propiedades de un objeto vacío ? Cuando realizas peticiones, el objeto no contiene la información solicitada en seguida, por ende, necesitas que el programa no colapse hasta que lleguen los datos y puedas utilizarlos.
 
@@ -23,5 +22,5 @@ const users = {
   }
 };
 
-console.log(users?.varko.country);
-console.log(users?.bebeloper?.country);
+console.log(users?.varko.country); // MX
+console.log(users?.bebeloper?.country); // undefined
