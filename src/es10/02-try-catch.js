@@ -9,7 +9,7 @@ try {
 // Parámetro opcional de catch
 // El parámetro opcional de catch permite omitir el error si es necesario.
 
-  try {
+try {
   // Manejar el código
   anotherFn();
 } catch {
